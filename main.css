@@ -10,7 +10,7 @@
     border-radius: 5px;
 }
 
-.section-header{
+.section-header {
     font-weight: 500;
     color: #888;
     letter-spacing: 2px;
@@ -18,21 +18,21 @@
     font-weight: 700;
 }
 
-.section-title{
+.section-title {
     font-size: 42px;
     font-weight: 700;
     margin-bottom: 30px;
     line-height: 52px;
 }
 
-.header{
+.header {
     position: fixed;
     background-color: whitesmoke;
     display: block;
     width: 100%;
     top: 0;
     height: 70px;
-    box-shadow: 0px 3px 16px 0px rgb(0 0 0  / 10%);
+    box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
     z-index: 999;
 }
 
@@ -139,77 +139,79 @@
 }
 
 /* men about sectionga stil berishni boshladim  uraaaaaa */
-.about-section{
+.about-section {
     margin-top: 50px;
 }
 
-.about-section__img img{
+.about-section__img img {
     width: 450px;
     display: inline;
     vertical-align: middle;
 }
 
-.about-section__img{
+.about-section__img {
     display: inline-block;
 }
 
-.about-section__info{
+.about-section__info {
     display: inline-block;
     vertical-align: middle;
     margin-left: 50px;
     width: 600px;
 }
 
-.about-section__text{
+.about-section__text {
     font-size: 16px;
     color: #888;
     font-weight: 400;
 }
 
 /* men bu yerdan services sectioga stil berishni boshladim */
-.services-section{
+.services-section {
     margin-top: 100px;
 }
 
+.services-section__cards {
+    display: flex;
+    justify-content: space-between;
+}
 
-.services-section__card{
-    padding: 60px 30px ;
+.services-section__card {
+    padding: 60px 30px;
     text-align: center;
     background-color: #f8faff;
-    display: inline-block;
     width: 25%;
-    margin-right:12px;
     transition: all 0.5s ease-in-out;
 }
 
-.services-section__card:hover{
+.services-section__card:hover {
     background-color: #5f30ff;
 }
 
-.services-section__card:hover h4{
+.services-section__card:hover h4 {
     color: white;
 }
 
-.services-section__card:hover p{
+.services-section__card:hover p {
     color: white;
 }
 
-.services-section__card:hover a{
+.services-section__card:hover a {
     color: white;
 }
 
-.services-section__card img{
+.services-section__card img {
     margin-bottom: 50px;
 }
 
-.services-section__card h4{
+.services-section__card h4 {
     color: #05364d;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 20px;
 }
 
-.services-section__card p{
+.services-section__card p {
     letter-spacing: 1px;
     color: #888;
     font-weight: 400;
@@ -217,7 +219,7 @@
     margin-bottom: 16px;
 }
 
-.services-section__card a{
+.services-section__card a {
     font-size: 18px;
     font-weight: 500;
     color: #05364d;
@@ -227,8 +229,8 @@
 
 /* clinets section */
 
-.clients-section{
-    margin-top:50px ;
+.clients-section {
+    margin-top: 50px;
 }
 
 .clients-section__img {
@@ -237,74 +239,74 @@
     vertical-align: middle;
 }
 
-.clients-section__img img{
+.clients-section__img img {
     width: 80%;
 }
 
-.clients-section__info{
+.clients-section__info {
     display: inline-block;
     width: 50%;
     vertical-align: middle;
 }
 
-.clients-section__info h4{
+.clients-section__info h4 {
     font-size: 20px;
     margin-bottom: 40px;
     font-weight: 500;
     line-height: 1.2;
-    
+
 }
 
-.clients-position{
+.clients-position {
     font-size: 14px;
     font-weight: 400;
 }
 
-.clients-comment{
+.clients-comment {
     color: #888;
 }
 
 /* portfolio ssection */
 
-.portfolio-section{
+.portfolio-section {
     margin-top: 50px;
 }
 
-.portfolio-section__list{
+.portfolio-section__list {
     padding: 0;
 }
 
-.portfolio-section__list li{
+.portfolio-section__list li {
     list-style: none;
     display: inline-block;
     margin-right: 20px;
 }
 
-.portfolio-section__list a{
+.portfolio-section__list a {
     text-decoration: none;
     font-size: 18px;
     font-weight: 400;
     color: #05364d;
-    transition: all 0.4s  ease;
+    transition: all 0.4s ease;
     text-transform: uppercase;
 }
 
-.portfolio-section__item{
+.portfolio-section__item {
     width: 48%;
     display: inline-block;
     position: relative;
 }
 
-.portfolio-section__items{
+.portfolio-section__items {
     position: relative;
 }
 
-.portfolio-rasm img{
+.portfolio-rasm img {
     width: 100%;
     height: 100%;
 }
 
-.pushti-oyna{
+.pushti-oyna {
     position: absolute;
     background-color: #5f30ff;
     width: 100%;
@@ -317,31 +319,115 @@
     z-index: 333;
 }
 
-.portfolio-section__item:hover .pushti-oyna{
+.portfolio-section__item:hover .pushti-oyna {
     visibility: visible;
     top: 20px;
     left: 20px;
     opacity: 0.8;
 }
 
-.item-1{
+.item-1 {
     box-sizing: border-box;
     padding-right: 10px;
 }
 
-.item-2{
+.item-2 {
     position: absolute;
     box-sizing: border-box;
     padding-bottom: 10px;
 }
 
-.item-3{
+.item-3 {
     position: absolute;
     top: 320px;
 }
 
 
+/* blog section */
+
+.blog-section {
+    padding-top: 100px;
+}
 
 
 
+.blog-section__icons p {
+    display: inline;
+    font-size: 15px;
+}
 
+.blog-section__icons {
+    color: #797979;
+    margin-top: 20px;
+}
+
+.blog-section__icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-img img {
+    width: 100%;
+    height: auto;
+    border-style: none;
+    transition: all 0.4s ease;
+}
+
+.blog-section__item:hover img {
+    transform: scale(1.1);
+}
+
+.blog-section__item:hover .card-info {
+    background-color: #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.13)
+}
+
+.item-img {
+    height: 323px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.blog-section__item {
+    display: inline-block;
+    width: 33%;
+}
+
+.card-header {
+    color: #05364d;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #212529;
+    text-align: left;
+}
+
+.card-link {
+    color: #212529;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.card-info {
+    background-color: #f8faff;
+    padding: 20px 20px 30px;
+    transition: all 0.4s ease;
+    position: relative;
+}
+
+.under-line {
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
+    left: 20px;
+    bottom: 20px;
+}
