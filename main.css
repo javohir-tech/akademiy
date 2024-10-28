@@ -1,73 +1,3 @@
-/* saytimda eng kop uchraydigan stillar*/
-.main-button {
-    color: #fff;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 36px;
-    padding: 10px 25px;
-    background-color: #BF2EF0;
-    border: none;
-    border-radius: 5px;
-}
-
-.section-header {
-    font-weight: 500;
-    color: #888;
-    letter-spacing: 2px;
-    font-size: 24px;
-    font-weight: 700;
-}
-
-.section-title {
-    font-size: 42px;
-    font-weight: 700;
-    margin-bottom: 30px;
-    line-height: 52px;
-}
-
-.header {
-    position: fixed;
-    background-color: whitesmoke;
-    display: block;
-    width: 100%;
-    top: 0;
-    height: 70px;
-    box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
-    z-index: 999;
-}
-
-/*header section */
-.header-img {
-    display: inline-block;
-}
-
-.header-img img {
-    width: 96px;
-}
-
-.navbar-list {
-    display: inline-block;
-}
-
-.navbar-list li {
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.navbar-list a {
-    text-decoration: none;
-    font-size: 18px;
-    color: #05364d;
-}
-
-.active {
-    color: #efb6df !important;
-}
-
-.container {
-    max-width: 1140px;
-    margin: 0 auto;
-}
 
 /* banner-area */
 
@@ -92,6 +22,16 @@
     font-weight: 700;
     margin-bottom: 20px;
     text-transform: uppercase;
+}
+
+.banner-icons i{
+    color: #007bff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.banner-icons{
+    margin-bottom: 20px;
 }
 
 .banner-info h5 {
@@ -266,6 +206,14 @@
     color: #888;
 }
 
+.clients-icon i{
+    color: #FFD804;
+}
+
+.bad{
+    color: #AEB9BE !important;
+}
+
 /* portfolio ssection */
 
 .portfolio-section {
@@ -431,3 +379,4 @@
     left: 20px;
     bottom: 20px;
 }
+
