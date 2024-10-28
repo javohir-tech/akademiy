@@ -1,0 +1,39 @@
+.form-section {
+    margin-top: 150px;
+}
+
+.message {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+
+input{
+    padding: 5px;
+}
+
+textarea:focus{
+    outline: 0;
+}
+
+input:focus{
+    outline: 0;
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.data {
+    width: 49%;
+}
+
+.xabar-mazmuni {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
